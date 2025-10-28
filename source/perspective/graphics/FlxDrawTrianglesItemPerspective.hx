@@ -1,10 +1,12 @@
 package perspective.graphics;
 
-import flixel.graphics.tile.FlxDrawBaseItem;
-import flixel.FlxG;
 import flixel.FlxCamera;
-import openfl.display.TriangleCulling;
+import flixel.FlxG;
+import flixel.graphics.tile.FlxDrawBaseItem;
 import flixel.graphics.tile.FlxDrawTrianglesItem;
+import flixel.util.FlxColor;
+import openfl.display.Graphics;
+import openfl.display.TriangleCulling;
 
 /**
  * An edit of `FlxDrawTrianglesItem` to enable triangle culling.

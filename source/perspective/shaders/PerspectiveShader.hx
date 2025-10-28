@@ -12,10 +12,10 @@ class PerspectiveShader extends FlxShader
 
         #define ASPECT 1.5;
 		
-		attribute float alpha;
-		attribute vec4 colorMultiplier;
-		attribute vec4 colorOffset;
-		uniform bool hasColorTransform;
+		//attribute float alpha;
+		//attribute vec4 colorMultiplier;
+		//attribute vec4 colorOffset;
+		//uniform bool hasColorTransform;
 
         uniform mat4 perspectiveMatrix;
         uniform mat4 viewMatrix;

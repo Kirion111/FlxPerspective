@@ -1,16 +1,19 @@
 package perspective;
 
-import perspective.graphics.FlxDrawTrianglesItemPerspective;
-import flixel.FlxG;
 import flixel.FlxCamera;
-import openfl.display.TriangleCulling;
-import openfl.geom.ColorTransform;
+import flixel.FlxG;
 import flixel.graphics.FlxGraphic;
 import flixel.graphics.tile.FlxDrawBaseItem;
 import flixel.graphics.tile.FlxDrawTrianglesItem;
 import flixel.math.FlxPoint;
 import flixel.system.FlxAssets.FlxShader;
+import flixel.util.FlxColor;
+import flixel.util.FlxSpriteUtil;
 import openfl.display.BlendMode;
+import openfl.display.Graphics;
+import openfl.display.TriangleCulling;
+import openfl.geom.ColorTransform;
+import perspective.graphics.FlxDrawTrianglesItemPerspective;
 
 using flixel.util.FlxColorTransformUtil;
 
@@ -91,7 +94,7 @@ class FlxCameraPerspective extends FlxCamera
 					var gfx:Graphics = FlxSpriteUtil.flashGfx;
 					gfx.clear();
 					gfx.lineStyle(1, FlxColor.BLUE, 0.5);
-					gfx.drawTriangles(drawVertices, indices);
+					gfx.drawTriangles(FlxCamera.drawVertices, indices);
 					buffer.draw(FlxSpriteUtil.flashGfxSprite, _helperMatrix);
 				}
 				#end

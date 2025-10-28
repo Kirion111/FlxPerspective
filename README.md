@@ -1,3 +1,11 @@
+
+# IMPORTANT
+This is a modified version of the
+original FlxPerspective library made by [TheZoroForce240](https://github.com/TheZoroForce240) to use in Haxe 4.3.5
+
+Go check [FlxPerspective](https://github.com/TheZoroForce240/FlxPerspective) Made By [TheZoroForce240](https://github.com/TheZoroForce240)
+(Really cool dude)
+
 # FlxPerspective
 3D in [HaxeFlixel](https://github.com/HaxeFlixel/flixel) by using a modified Vertex shader to transform sprites and triangles into a 3D space.
 
@@ -16,7 +24,7 @@
 ## Installation
 * Run this command to install the haxelib
 ```
-haxelib git flxperspective https://github.com/TheZoroForce240/FlxPerspective
+haxelib git flxperspective https://github.com/Kirion111/FlxPerspective
 ```
 * Add "flxperspective" to the project.xml
 ```xml
